@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 9
+      "likes": 20
     },
     {
       "id": 2,
@@ -61,9 +61,9 @@
       "id": 10
     },
     {
-      "name": "Green Chill",
+      "name": "Lima Cool",
       "image": "https://1372d34c156f12457517-c8b49206fc42ea00d5fd50b8ec61d670.ssl.cf2.rackcdn.com/0818094003900_A1L1_ItemMaster_default_large.jpeg",
-      "likes": 6,
+      "likes": 14,
       "id": 11
     },
     {
