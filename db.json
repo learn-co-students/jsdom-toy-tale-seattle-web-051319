@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 32
+      "likes": 9
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "id": 5,
       "name": "Rex",
       "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "likes": 6
     },
     {
       "id": 6,
@@ -51,20 +51,32 @@
     {
       "name": "Grape Power",
       "image": "https://images-na.ssl-images-amazon.com/images/I/716rHaKUOXL._SY550_.jpg",
-      "likes": 97,
+      "likes": 20,
       "id": 9
     },
     {
       "name": "Watermelon Blessing",
       "image": "https://target.scene7.com/is/image/Target/GUEST_2a68087f-a838-44df-8b9b-3c220bd8df83?wid=488&hei=488&fmt=pjpeg",
-      "likes": 10,
+      "likes": 5,
       "id": 10
     },
     {
-      "name": "Watermelon Blessing",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_2a68087f-a838-44df-8b9b-3c220bd8df83?wid=488&hei=488&fmt=pjpeg",
-      "likes": 4,
+      "name": "Green Chill",
+      "image": "https://1372d34c156f12457517-c8b49206fc42ea00d5fd50b8ec61d670.ssl.cf2.rackcdn.com/0818094003900_A1L1_ItemMaster_default_large.jpeg",
+      "likes": 6,
       "id": 11
+    },
+    {
+      "name": "Blue Ballin'",
+      "image": "https://www.esmeyer-shop.com/out/pictures/generated/product/1/500_500_90/cam_4060800178701.jpg",
+      "likes": 16,
+      "id": 13
+    },
+    {
+      "name": "The Most Perfect Berry",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41OfapdvMaL.jpg",
+      "likes": 29,
+      "id": 14
     }
   ]
 }

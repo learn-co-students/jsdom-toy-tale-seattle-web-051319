@@ -64,6 +64,7 @@ addBtn.addEventListener('click', () => {
       return newToyP
     }
 
+    // Added total likes header to indicate what numbers mean
     function createLikeCountAttributes(object) {
       const likeCountH = document.createElement('h5')
       likeCountH.textContent = 'Total Likes:'
