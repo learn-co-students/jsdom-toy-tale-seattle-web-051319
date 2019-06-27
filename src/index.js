@@ -94,6 +94,16 @@ addBtn.addEventListener('click', () => {
         body: JSON.stringify(info)
       })
       .then(response => {
+        /*
+        Here we need to capture the id of the new product so
+        that we can increment the likes for that toy. We are using
+        the total number of divs to count how many toys are in the
+        db. With this number we can add 1 to determine the appropriate
+        id for the new product created and thus have our like functions
+        linked to the appropriate database entry.
+        */
+        const toyDivs = document.getElementsByClassName('card')
+        info.id = toyDivs.length + 1
         displayNewToy(info)
         newToyForm.reset()
       })

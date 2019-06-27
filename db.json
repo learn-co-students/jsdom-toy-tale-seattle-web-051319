@@ -51,8 +51,20 @@
     {
       "name": "Grape Power",
       "image": "https://images-na.ssl-images-amazon.com/images/I/716rHaKUOXL._SY550_.jpg",
-      "likes": 30,
+      "likes": 50,
       "id": 9
+    },
+    {
+      "name": "Watermelon Blessing",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_2a68087f-a838-44df-8b9b-3c220bd8df83?wid=488&hei=488&fmt=pjpeg",
+      "likes": 10,
+      "id": 10
+    },
+    {
+      "name": "Watermelon Blessing",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_2a68087f-a838-44df-8b9b-3c220bd8df83?wid=488&hei=488&fmt=pjpeg",
+      "likes": 4,
+      "id": 11
     }
   ]
 }
