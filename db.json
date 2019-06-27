@@ -47,6 +47,12 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Grape Power",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/716rHaKUOXL._SY550_.jpg",
+      "likes": 30,
+      "id": 9
     }
   ]
 }
