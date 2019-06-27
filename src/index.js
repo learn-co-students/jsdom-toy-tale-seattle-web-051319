@@ -32,12 +32,14 @@ addBtn.addEventListener('click', () => {
       }
     })
 
+    // Would like to add a new method to indicate what the numbers mean
     function displayNewToy(object) {
       const newToyDiv = document.createElement('div')
       newToyDiv.classList.add('card')
       newToyDiv.id = object.id
       newToyDiv.appendChild(createH2Attributes(object))
       newToyDiv.appendChild(createImgAttributes(object))
+      newToyDiv.appendChild(createLikeCountAttributes(object))
       newToyDiv.appendChild(createPAttributes(object))
       newToyDiv.appendChild(createButtonAttributes(object))
       toyCollection.appendChild(newToyDiv)
@@ -60,6 +62,12 @@ addBtn.addEventListener('click', () => {
       const newToyP = document.createElement('p')
       newToyP.textContent = object.likes
       return newToyP
+    }
+
+    function createLikeCountAttributes(object) {
+      const likeCountH = document.createElement('h5')
+      likeCountH.textContent = 'Total Likes:'
+      return likeCountH
     }
 
     function createButtonAttributes(object) {
@@ -131,7 +139,9 @@ addBtn.addEventListener('click', () => {
       })
       .then(response => {
         const updatedToy = document.getElementById(`${id}`)
-        const likes = updatedToy.children[2]
+        // Had to update likes because adding a title adjusted the numbering
+        // of the div.
+        const likes = updatedToy.children[3]
         likes.textContent = `${parseInt(likes.textContent) + 1}`
      })
     }
