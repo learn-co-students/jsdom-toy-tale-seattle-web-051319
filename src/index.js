@@ -1,3 +1,4 @@
+const url = "http://localhost:3000/toys"
 const addBtn = document.querySelector('#new-toy-btn')
 const toyForm = document.querySelector('.container')
 const newForm = document.querySelector('.add-toy-form')
@@ -23,19 +24,14 @@ newForm.addEventListener("submit", () =>{
   addNewToy(name, imageUrl);
 })
 
-
-
-
-
 // OR HERE!
 
 function fetchToy(){
- fetch("http://localhost:3000/toys")
+ fetch(url)
  .then(resp => resp.json())
  .then(json => {
     addToys(json)
  })
-
 }
 
 function addToys(info){
@@ -64,15 +60,13 @@ function addToys(info){
     button.innerText = "Like <3"
     div.appendChild(button)
     button.addEventListener('click', () => {
-      addLike(toy.id)
+      addLike(toy, likes)
     })  
   })
 }
 
-
-
 function addNewToy(name, imageUrl){
-  fetch("http://localhost:3000/toys",{
+  fetch(url,{
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -83,23 +77,33 @@ function addNewToy(name, imageUrl){
       image: imageUrl,
       likes: 0
     })
-    
   })
-
   .then(resp => resp.json())
   .then(json => console.log(json))
   .catch(err => console.log(err.message))
 
 }
 
-function likeToy(){
-  console.log(likeButton)
+function addLike(toy, likes){
+  toy.likes += 1;
+  likes.innerText = `${toy.likes} likes`;
+  updateLikes(toy);
 }
 
-fetchToy()
-likeToy()
+function updateLikes(toy) {
+  fetch(`${url}/${toy.id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json",
+      "Accepts": "application/json"
+    },
+    body: JSON.stringify({
+      likes: toy.likes
+    })
+  })
+  .then(resp => resp.json())
+  .then(obj => console.log(obj))
+  .catch(err => err.message)
+}
 
-// h2 tag with the toy's name
-// img tag with the src of the toy's image attribute and the class name "toy-avatar"
-// p tag with how many likes that toy has
-// button tag with an class "like-btn"
+fetchToy();
