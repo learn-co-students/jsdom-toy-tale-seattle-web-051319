@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": "8"
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": "9"
     },
     {
       "id": 3,
@@ -28,74 +28,49 @@
       "id": 5,
       "name": "Rex",
       "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "likes": "2"
     },
     {
       "id": 6,
       "name": "Bo Peep",
       "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "likes": "3"
     },
     {
       "id": 7,
       "name": "Hamm",
       "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "likes": "1"
     },
     {
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": "-1"
     },
     {
       "name": "kite",
-      "image": "http://www.google.com",
-      "id": 9
-    },
-    {
-      "name": "kite",
-      "image": "http://www.google.com",
-      "id": 10
-    },
-    {
-      "name": "kite",
-      "image": "http://www.google.com",
-      "id": 11
-    },
-    {
-      "name": "kite",
-      "image": "http://www.google.com",
-      "id": 12
-    },
-    {
-      "name": "fish",
-      "image": "http://www.google.com",
-      "id": 13
-    },
-    {
-      "name": "ds",
-      "image": "things",
-      "likes": 0,
-      "id": 14
-    },
-    {
-      "name": "ds",
-      "image": "things.com",
-      "likes": 0,
-      "id": 15
-    },
-    {
-      "name": "ds",
-      "image": "http://www.google.com",
-      "likes": 0,
-      "id": 16
+      "image": "https://digital.hammacher.com/Items/91974/91974_380x380.jpg",
+      "id": 9,
+      "likes": "7"
     },
     {
       "name": "Thingy",
-      "image": "http://www.google.com",
-      "likes": 0,
+      "image": "https://socalcitykids.com/wp-content/uploads/2012/12/Furby-Blue-HI-RES.jpg",
+      "likes": "19",
       "id": 17
+    },
+    {
+      "name": "Pong",
+      "image": "https://media.wired.com/photos/59fccff22d3f5732c7d5aa15/master/w_2400,c_limit/Pong-TA-B1C1YX.jpg",
+      "likes": "8",
+      "id": 18
+    },
+    {
+      "name": "BopIt",
+      "image": "https://www.parentingwithouttears.com/custom/BopIt.jpeg",
+      "likes": "1",
+      "id": 19
     }
   ]
 }
